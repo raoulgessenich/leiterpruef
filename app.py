@@ -108,7 +108,7 @@ if choice == "Prüfung durchführen":
                 df_kataster = pd.concat([df_kataster, pd.DataFrame([new_row])], ignore_index=True)
             
             save_data(df_kataster)
-            st.toast("Daten erfolgreich im Kataster gespeichert!", icon="??")
+            st.toast("Daten erfolgreich im Kataster gespeichert!")
 
 # --- REITER 2: DIGITALES KATASTER ---
 elif choice == "Digitales Kataster":
